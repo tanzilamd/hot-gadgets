@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color{
+    background-color: white !important;
+}
+#nav-bar{
+    margin-top: 10px;
+}
+#nav-bar img{
+    height: 60px;
+}
