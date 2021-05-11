@@ -12,3 +12,40 @@
 #nav-bar img{
     height: 60px;
 }
+.carousel-bg{
+    background-image: url(images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+button.carousel-btn{
+    border: none;
+}
+button.carousel-btn a{
+    background-color: #000000;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 8px;
+   
+}
+.row{
+    position: relative;
+    z-index:1;
+}
+.top-section-bg{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 160px;
+    height: 500px;
+
+}
+.p-height{
+    line-height: 1.7rem;
+}
+
+.carousel-indicators li{
+    padding: 0.0625rem 0rem;
+    background-image:linear-gradient(to right,#FFB627, #FFD019);
+}
