@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    margin-bottom: 100px;
+}
+.container:first-child{
+    margin-bottom: 0;
+}
 
 .bg-color{
     background-color: white !important;
@@ -18,10 +24,10 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-button.carousel-btn{
+button.buy-now-btn{
     border: none;
 }
-button.carousel-btn a{
+button.buy-now-btn a{
     background-color: #000000;
     padding: 10px 20px;
     display: inline-block;
@@ -48,4 +54,33 @@ button.carousel-btn a{
 .carousel-indicators li{
     padding: 0.0625rem 0rem;
     background-image:linear-gradient(to right,#FFB627, #FFD019);
+}
+.cat-name h6{
+    color: #FF9D01;
+}
+.card-footer{
+    background-color: #fff;
+    border: none;
+}
+.cat-align{
+    text-align: center;
+    justify-content: center;
+    border: none;
+    
+}
+.cat-align img{
+    width: 200px;
+    
+}
+.cat-name{
+    margin-bottom: 1.5625rem;
+}
+.card {
+    padding: 20px;
+}
+
+.card{
+    border: none;
+    box-shadow: 10px 10px 40px #ddd;
+    border-radius: 10px;
 }
